@@ -1,5 +1,5 @@
-const fastify = require("./src/core/http");
-const fs = require("node:fs");
+const fastify = require("./src/core/http"); 
+const fs = require("node:fs"); 
 
 (async (port) => {
     try {
