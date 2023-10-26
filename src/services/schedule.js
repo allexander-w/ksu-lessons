@@ -1,9 +1,11 @@
-const db = require("../xlsx/index");
+const db = require("../xlsx/index");  // импорт базы данных
 
 module.exports = {
+    
 
-    getAll() {
-        return db.range([8, 100], 0);
-    }
+    getAll(colRange, rowIndex) {
+        return db.range(colRange, rowIndex);
+    },
+
 
 }
