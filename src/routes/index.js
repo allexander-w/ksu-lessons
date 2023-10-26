@@ -1,9 +1,8 @@
-const scheduleController = require("../controllers/schedule"); // импорт обработчиков для событий
+const scheduleController = require("../controllers/schedule"); 
 
 module.exports = (fastify) => {
 
     /* get schedule */
-    // обработка url /schedule
     fastify.get('/schedule', scheduleController.get);
     
 }

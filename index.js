@@ -1,5 +1,5 @@
-const fastify = require("./src/core/http"); // импорт приложения
-const fs = require("node:fs"); // file system
+const fastify = require("./src/core/http"); 
+const fs = require("node:fs"); 
 
 (async (port) => {
     try {

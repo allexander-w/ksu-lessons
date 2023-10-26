@@ -1,6 +1,6 @@
-const fastify = require('fastify')({ logger: true }); //  создаем экземпляр Fastify приложения
-const registerRoutes = require('../routes/index');  // маршрутизация
+const fastify = require('fastify')({ logger: true }); 
+const registerRoutes = require('../routes/index');  
 
-registerRoutes(fastify); // передаем экземпляр в функцию
+registerRoutes(fastify); 
 
 module.exports = fastify; 

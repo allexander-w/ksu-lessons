@@ -1,4 +1,4 @@
-const db = require("../xlsx/index");  // импорт базы данных
+const db = require("../xlsx/index");  
 
 module.exports = {
     
